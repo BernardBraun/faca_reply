@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    display: block;
+    
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
@@ -25,23 +25,145 @@ body {
     margin-top: 100px;
     margin-bottom: 250px;
     min-height: 500px;
+    padding-left: 20%;
+    display: block;
 }
+
+.container_login {
+    border: 1px solid #000;
+    margin-top: 150px;
+    
+    display: flex;
+}
+
+.logotipo img {
+    height: 70px;
+}
+
 .titulo_login {
     font-size: 28px;
     color: #1c1e21;
 }
 
+.instrucao_login {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.container_accounts {
+    display: flex;
+}
+
+.conta1 {
+    width: 160px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.conta1 img {
+    align-items: center;
+}
+
+.conta1 a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.adicionar_conta {
+    margin-left: 20px;
+    width: 160px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.adicionar_conta img {
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    height: 90px;
+    width: 90px;
+}
+
+.adicionar_conta a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login_email {
+    display: block;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.endereco_email {
+    display: block;
+}
+
+
+.senha_login {
+    display: block;
+}
+
+.botao_entrar {
+    display:block;
+}
+
+.esqueceu_senha {
+    display: block;
+    text-align: center;
+}
+
+.divisor_login {
+    border: 1px solid #000;
+    display: block;
+}
+
+.main_footer {
+    width: 1585px;
+    height: 136px;
+
+}
+
 .footer_container{
-    margin-left: 200px;
-    margin-right: 200px;
+    border: 1px solid #000;
+    bottom:0;
+    width:980px;
+    height: 136px;
+    margin: 0 302.5px;
     
 }
 
+.footer_container a {
+    font-size: 12px;
+    
+}
+
+.content_curve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+.a1 {
+    padding: 0 0 0 20px;
+}
+
+
 .lista_links {
     list-style: none;
+    width: 1100px;
+    height: 57px;
 }
+
+
 .sign {
     font-size: 11px;
+    padding: 0 0 0 20px;
+    margin-top: 15px;
     
 }
 
