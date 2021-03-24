@@ -10,34 +10,38 @@
 }
 
 body {
-    width: 100%;
+    width: 1585px;
+    height: 780px;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: block;
     justify-content: center;
+    background-color: #f0f1f5;
 }
 
 
 /* principal */
 
 .main_container {
-    margin-top: 100px;
-    margin-bottom: 250px;
+    
+    margin-bottom: 140px;
     min-height: 500px;
-    padding-left: 20%;
+    padding-left: 18%;
     display: block;
+    
 }
 
 .container_login {
     border: 1px solid #000;
-    margin-top: 150px;
+    margin-top: 80px;
     
     display: flex;
 }
 
 .logotipo img {
     height: 70px;
+    margin-left: -20px;
 }
 
 .titulo_login {
@@ -57,33 +61,43 @@ body {
 .conta1 {
     width: 160px;
     height: 200px;
+    background-color: #fff;
     border: 1px solid #000;
+    border-radius: 6px;
 }
 
 .conta1 img {
     align-items: center;
+    margin-bottom: 6px;
+    border-radius: 6px;
 }
+
+.text {
+    text-align: center;
+    }
 
 .conta1 a {
     text-decoration: none;
     text-align: center;
-    margin-top: 10px;
+    
 }
 
 .adicionar_conta {
     margin-left: 20px;
     width: 160px;
     height: 200px;
+    background-color: #fff;
     border: 1px solid #000;
+    border-radius: 6px;
 }
 
 .adicionar_conta img {
     align-items: center;
-    margin-left: 35px;
-    margin-top: 35px;
-    margin-bottom: 40px;
-    height: 90px;
-    width: 90px;
+    
+    margin-bottom: 6px;
+    border-radius: 6px;
+    height: 160px;
+    width: 160px;
 }
 
 .adicionar_conta a {
@@ -95,35 +109,116 @@ body {
 .login_email {
     display: block;
     align-items: center;
-    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 255px;
+    object-position: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px;
+    
 }
 
 .endereco_email {
     display: block;
+    width: 364px;
+    height: 52px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.endereco_email input {
+    align-items: center;
+    line-height: 16px;
+    border: none;
+    width: 300px;
 }
 
 
 .senha_login {
     display: block;
+    width: 364px;
+    height: 52px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.senha_login input {
+    align-items: center;
+    line-height: 16px;
+    border: none;
+    width: 300px;
 }
 
 .botao_entrar {
+    margin-bottom: 20px;
+}
+
+.botao_entrar button{
     display:block;
+    width: 364px;
+    height: 52px;
+    background-color: #4267b2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+
+
+.botao_novaconta button{
+    display:block;
+    width: 166px;
+    height: 48px;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 6px;
+    margin-left: 95px;
+    
 }
 
 .esqueceu_senha {
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .divisor_login {
-    border: 1px solid #000;
+    border: 1px solid #dadde1;
     display: block;
+    margin-bottom: 20px;
+}
+
+.criar_pagina {
+    margin-top: 20px;
+    padding-left: 610px;
+    font-size: 14px;
+}
+
+.criar_pagina a {
+    font-weight: bold;
 }
 
 .main_footer {
     width: 1585px;
-    height: 136px;
+    height: 165px;
+    background-color: #fff;
+    padding-top: 20px;
 
 }
 
@@ -152,11 +247,15 @@ body {
     padding: 0 0 0 20px;
 }
 
+.otherapps {
+    width: 1000px;
+    height: 57px;
+}
 
 .lista_links {
     list-style: none;
-    width: 1100px;
-    height: 57px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
