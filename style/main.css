@@ -1,0 +1,48 @@
+/* root */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* principal */
+
+.main_container {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    min-height: 500px;
+}
+.titulo_login {
+    font-size: 28px;
+    color: #1c1e21;
+}
+
+.footer_container{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.lista_links {
+    list-style: none;
+}
+.sign {
+    font-size: 11px;
+    
+}
+
+/* responsivity */
